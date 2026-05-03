@@ -43,13 +43,14 @@ Database Systems Management Project Report.pdf     - Project documentation
 
 ## How to Use
 
-1. Open pgAdmin and create a new database called `dbsm_projectdb`
+1. Open pgAdmin and create a new database named `dbsm_projectdb`
 2. Restore `projectdb_final.backup` into it (right-click database → Restore)
 3. All changes are already included in the backup
 
 To apply changes manually from scratch:
-1. Restore the original course-provided backup
-2. Run SQL files in this order (VERY IMPORTANT):
+1. Open pgAdmin and create a new database named `dbsm_projectdb`
+2. Restore the original course-provided backup
+3. Run SQL files in this EXACT order (VERY IMPORTANT):
    - `db_changes.sql`
    - `views.sql`
    - `triggers.sql`
